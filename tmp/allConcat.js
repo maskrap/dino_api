@@ -23,8 +23,8 @@ var Dino = require('./../js/dino.js').dinoModule;
 var displayFunction = function(dinoText, words, paragraphs) {
     $('.showDino').text("The number of paragraphs you chose is " + paragraphs + " and the number of words per paragraph is " + words + ".");
     // console.log(dinoText);
-    $('.dinoText').html(dinoText);
-}
+    // $('.dinoText').html(dinoText);
+};
 
 $(document).ready(function() {
   $('#dinoParagraph').click(function() {
